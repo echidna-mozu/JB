@@ -1,6 +1,6 @@
 {
   "about": {
-    "name": "Jelly Belly",
+    "name": "Jelly Belly changed",
     "author":"Echidna, Inc for Jelly Belly",
     "extends": "core4",
     "isDesktop": true,
