@@ -1,0 +1,30 @@
+<div class="mz-productlist {% block module-classes %}{% endblock module-classes %}">
+    
+    <img src="{{ siteContext.cdnPrefix }}/cms/7782/files/addImage.jpg" />
+    {% if model.items %}
+    {% with 4 as max_item_per_row %}
+        <ul class="mz-productlist-grid" id="mz-productlist-list">
+        
+            {% for prod in model.items %}
+            
+                <li class="mz-productlist-item" data-mz-product="{{ prod.productCode }}">
+                    
+                    {% include "modules/product/product-listing" with model=prod %}
+                </li>
+                {% if forloop.counter == 4 %}
+                    <hr class="jb-productslist-rowseperator" />
+                {% endif %}
+            {% endfor %}
+        
+        </ul>
+    {% endwith %}
+    {% endif %}
+</div>
+
+
+
+
+
+
+
+

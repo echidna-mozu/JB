@@ -1,0 +1,23 @@
+<div class="jb-ourproducts-brands-listing">
+Shop by Category:
+    <ul class="jb-ourproducts-brand-lister">
+            {% for item in model %}
+            
+                <li class="ourproducts-brand-item">
+                    <a href="/{{item.content.slug}}/c/{{item.categoryId}}">
+                        <div class="ourproducts-brand-details" 
+                        style="background-image:url('../resources/images/brands/background/{{item.content.slug}}Background.jpg')">
+
+                            <img src="{{ siteContext.cdnPrefix }}/cms/7782/files/{{item.content.slug}}Logo.png"></img>
+                        
+                        </div>
+                        <p> {{item.content.pageTitle}} </p>
+                    </a>
+                </li>
+            {% endfor %}
+    </ul>
+</div>
+
+
+
+

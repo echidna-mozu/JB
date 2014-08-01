@@ -1,0 +1,243 @@
+
+
+@media only screen and (min-width: 1px) and (max-width: 630px) {
+    //page header 
+    .mz-pageheader {
+        height: 56px;
+        .jb-serach-box-with-label {
+            display: none;
+            p{
+                display: none;
+            }
+        }    
+    }
+}
+
+@media (max-width: 568px){
+    .mz-searchbox-field {
+        width: 200px !important;
+    }
+}
+
+// For all mobile devices
+@media only screen and (min-width: 1px) and (max-width: 767px) {
+    
+    //overlay dialogue pop up offer
+    .jb-l-overlay-popup{
+        display: none;
+        .jb-discount-offer{
+            display: none;
+            #jb-dicount-offer-close{
+                display: none;
+            }
+        }
+    }
+    
+    //Home page
+    .jb-about-jelly-belly{
+            p{
+                font-size: 13px !important;
+                margin: 0px;
+                img{
+                    display: none;
+                }
+            }
+    }
+    //page header
+    .mz-pageheader {
+        height: 56px;
+        .jb-serach-box-with-label {
+            width: 286px;
+            p{
+                display: none;
+            }
+        }    
+    }
+    //owl carousel navigation
+    .owl-nav{
+        display: none;
+    }
+    //Site navigation
+    .mz-sitenav {
+        display: none;
+    }
+    //footer social
+    .jb-footer-evrgreen {
+        display: block !important;
+        clear: both !important;
+        width: 100% !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+         a {
+            display: block !important;
+            margin: 5px auto !important;
+            border: solid 1px #ccc !important;
+            overflow: hidden !important;
+            border-radius: 12px !important;
+            float: none !important;
+            /* width: 50%; */
+            text-decoration: none !important;
+        }
+    }
+    .jb-social-links{
+        display: none;
+    }
+    // brand listing in home page
+               .brand-details{
+                    p{
+                        display: none !important;
+                        position: relative !important; 
+                        width: 100% !important; 
+                        font-size: 16px !important; 
+                        margin: 5px 0px !important; 
+                    }
+                     figure{
+                        display: inline-block !important;
+                        margin-top: 33px !important;
+                        background-color: #FFF;
+                        border-radius: 0px 5px 5px 0px;
+                        box-shadow: 1px 2px 3px #808080;
+                        .brand_logo{
+                            width: 64px !important;
+                            height: 60px !important;
+                            float: left !important;
+                            margin: 0px 0px 0px 0px !important;
+                        }
+                        figcaption{
+                            position: relative !important;
+                            top: 0px !important;
+                            font-size: 25px !important;
+                            float: left !important;
+                            margin: 15px 0px 0px 10px !important;
+                        }
+                    }
+                    &:hover{
+                        p{
+                            display: none !important;
+                        }
+                        figure{
+                            // display: block !important;
+                        }
+                    }
+                }
+    //Shop our product
+    .jb-free-shipping{
+        display: none;
+    }
+    .jb-monthly-theme{
+        display: none;
+    }
+    [class*=mz-cms-col-] {
+        padding-left: 0px !important; 
+        padding-right: 0px !important;
+    }
+}
+
+
+// For all devices larger than mobile width up to 979
+@media only screen and (min-width : 768px) and (max-width : 979px) {
+    
+    //Site navigation
+    .mz-sitenav {
+        .mz-sitenav-link {
+            color: #f00;
+            font-size: 11px !important;
+            padding: 4px 8px !important;
+        }
+        .jb-store-locator {
+            top: -26px !important;
+            font-size: 11px;
+        }
+    }
+    
+    
+    //footer social links and contentents
+     .jb-footer-evrgreen {
+        display: block !important;
+        clear: both !important;
+        width: 100% !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+         a {
+            display: inline-block !important;
+            margin: 5px 6px !important;
+            border: solid 1px #ccc !important;
+            overflow: hidden !important;
+            border-radius: 12px !important;
+            float: none !important;
+            text-decoration: none !important;
+        }
+    }
+        .jb-center-logo{
+            margin: 0px !important;
+        }
+        
+        .jb-tours-shipping{
+            ul{
+                padding: 0px !important;
+                li{
+                    margin: 0px 1px !important;
+                }
+            }
+        }
+        
+        .jb-follow-us{
+            ul{
+                padding: 0px !important;
+                li{
+                    margin: 0px 1px !important;
+                }
+            }
+        }
+    // brand listing in home page
+                .brand-details{
+                    p{
+                        display: none !important;
+                    }
+                    figure{
+                        display: inline-block !important;
+                        float: left !important;
+                        margin-left: 10px;
+                        .brand_logo{
+                            background-image: url('../resources/images/brands_sprite.png');
+                            width: 64px !important;
+                            height: 60px !important;
+                            float: left !important;
+                            margin: 0px 0px 0px 0px !important;
+                        }
+                        figcaption{
+                            position: relative !important;
+                            top: 0px !important;
+                            font-size: 25px !important;
+                            float: left !important;
+                            margin: 15px 0px 0px 10px !important;
+                        }
+                    }
+                    &:hover{
+                        p{
+                            display: none !important;
+                        }
+                        figure{
+                            display: block !important;
+                        }
+                    }
+                }
+                
+                
+    // Shop our product
+    .jb-free-shipping{
+        margin: 10px 0px 0px 64% !important;
+        background-color: rgba(249,245,222,0.35) !important;
+        border: 1px solid #ddd !important;
+    }
+    
+    .jb-monthly-theme{
+        margin: 140px 0px 0px 64% !important;
+        background-color: rgba(249,245,222,0.35) !important;
+        border: 1px solid #ddd !important;
+    }
+}
+
+
+
+

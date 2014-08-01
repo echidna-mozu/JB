@@ -1,0 +1,59 @@
+{% extends "page" %}
+
+{% block title-tag-content %} Shop our products {% endblock title-tag-content %}
+
+{% block body-tag-classes %}mz-ourproduct{% endblock body-tag-classes %}
+
+{% block body-content %}
+
+    {% require_script "pages/shop-our-product" %}  
+    <div class="jb-slide-show">
+        
+        {% include "modules/shop-our-product-slideshow" %}   
+    </div>
+  
+    <div class="jb-search">
+        <div class="jb-search-ourproduct">
+            <p>Search our Huge Selection:</p>
+            {% include "modules/page-header/search-box" %}   
+        </div>
+        <img class="jb-made-in-usa" src="../resources/images/madeInUSA.png"/>
+    </div>
+    
+    
+    <div id="shop-our-product-brands-listing"></div>
+    
+    
+    <div class="jb-e-commerce-details">
+        <hr/>
+        <div class="jb-links">
+            <a href="/info/customerservice/shipping_information">Free Shipping on $55+&nbsp;<span>▶</span></a>
+            <a href="/Info/customerservice/ordering_information">No Sales Tax&nbsp;<span>▶</span></a>
+            <a href="/info/customerservice/shipping_information#ShipInternational">We Ship Internationally&nbsp;<span>▶</span></a>
+            <a href="/Info/StoreLocator/Locator?country=us-en">Retail Locations&nbsp;<span>▶</span></a>
+        </div>
+        <hr/>
+    </div>
+    
+    <div class="jb-reccomended-product-dropzone" style="display:none;">
+        Jelly Belly Also Recommends
+        {% block feature-content %}
+                        {% dropzone "shopourproduct-features" scope="page" %}
+    	{% endblock feature-content %}
+	</div>
+    
+{% endblock body-content %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

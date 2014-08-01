@@ -1,0 +1,35 @@
+<div class="brands-listing">
+    
+    
+     <ul class="brand-lister">
+        {% for item in model %}
+        
+                <li class="brand-item">
+                <a href="/{{item.content.slug}}/c/{{item.categoryId}}">
+            
+                    <div class="brand-details" style="background-image:url('../resources/images/brands/{{item.content.slug}}.jpg')">
+                
+                    <p> 
+                      {{item.content.description}}
+                    </p>
+                    
+                    <figure>
+                        
+                            <div class="brand_logo" style="background-position: 0 {{item.yPosition}}px;" > </div>
+                        
+                        <figcaption>{{item.content.pageTitle}}</figcaption>
+                    </figure>
+    
+                    
+                    </div>
+                </a>
+                </li>
+
+        {% endfor %}
+        
+    
+    </ul>
+</div>
+
+
+

@@ -1,0 +1,47 @@
+{% extends "page" %}
+
+{% block title-tag-content %}{% if PageContext.MetaTitle %}{{PageContext.MetaTitle}}{% else %}{{model.Name}} - {% parent %} {%endif%}{% endblock title-tag-content %}
+
+
+{% block body-tag-classes %} mz-category {% endblock body-tag-classes %}
+
+{% block body-content %}
+
+{% require_script "pages/category" %}
+
+    <div data-mz-category="{{model.categoryId}}" class="jb-category-container">
+    
+        <h1 class="jb-category-title">{{ model.name }}</h1>
+    
+        <h3>{{model.content.description|safe}}</h3>
+    
+        <div class="jb-childcategory-container">
+        
+        {% for childrenCategories in model.childrenCategories%}
+                <div class="jb-childcategory">
+                    <div class="jb-colapsing-title">
+                        <h1 class="jb-category-title">{{childrenCategories.name}}</h1>
+                        <p>open/close</p>
+                    </div>
+                    
+                    <div class="jb-childcategory-description">{{childrenCategories.content.description|safe}}</div>
+                    <div class="jb-childChildrenCategories-container">
+                    
+                    {% for childChildrenCategories in childrenCategories.childrenCategories%}
+                        <div class="jb-childChildrenCategory" style="background-image:url('{{childChildrenCategories.content.categoryImages.0.imageUrl}}');">
+                            <a href="{{childChildrenCategories.url}}">
+                                {{childChildrenCategories.name}}
+                            </a>
+                        </div>
+                    {% endfor %}
+                    </div>
+                </div>
+        {% endfor %}
+        
+        </div>
+    </div>
+
+{% endblock body-content %}
+
+
+

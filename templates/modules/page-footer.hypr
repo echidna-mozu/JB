@@ -1,0 +1,105 @@
+<footer class="mz-pagefooter">
+
+        <div class="jb-footer-links">
+                    <ul>
+                        <li><a href="/Info/aboutjellybelly/">About Jelly Belly</a></li>
+                        <li>
+                            <ul>
+                                <li><a href="/Info/aboutjellybelly/company-history">Company History</a></li>
+                                <li><a href="/Info/aboutjellybelly/general_facts">General Information About Our Products</a></li>
+                                <li><a href="/jelly-belly-customer-testimonials">Customer Testimonials</a></li>
+                                <li><a href="/jelly-belly-social-media">Social Media Links</a></li>
+                                <li><a href="/Info/aboutjellybelly/principles_and_practices">Principles and Practices</a></li>
+                                <li><a href="/Info/aboutjellybelly/careers">Careers</a></li>
+                                <li><a href="/Info/aboutjellybelly/wholesale_customers">Specialty Wholesale Customers</a></li>
+                                <li><a href="/Info/aboutjellybelly/wholesale_customers_national">National Wholesale Customers</a></li>
+                                <li><a href="/Info/CustomerService/Stores_Outside_United_States">International</a></li>
+                                <li><a href="/Info/aboutjellybelly/information_for_students">Educators &amp; Students</a></li>
+                                <li><a href="/Info/aboutjellybelly/trademark_usage">Logo/TM/® Use</a></li>
+                                <li><a href="/Info/aboutjellybelly/privacy_policy">Privacy Policy</a></li>
+                                <li><a href="/Info/aboutjellybelly/terms_of_use">Terms of Use</a></li>
+                                <li><a href="/Info/aboutjellybelly/fundraising_and_vending">Vending</a></li>
+                                <li><a href="/Info/aboutjellybelly/donations">Requests for Donations</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li><a href="/Info/CustomerService/">Customer Service</a></li>
+                        <li>
+                            <ul>
+                                <li><a href="/Info/aboutjellybelly/contact_us">Contact Us</a></li>
+                                <li><a href="/Info/Shop/gift_cards">Buy a Gift Card</a></li>
+                                <li><a href="/Info/customerservice/frequently_asked_questions">FAQ</a></li>
+                                <li><a href="/Info/StoreLocator/Locator?country=us-en">Store Locator</a></li>
+                                <li><a href="https://www.myjellybelly.com/" target="_blank">Personalize &amp; Customize</a></li>
+                                <li><a href="/Info/customerservice/return_policy">Returns &amp; Refunds</a></li>
+                                <li><a href="/Info/CustomerService/online_order_info_index">Online Order Information</a></li>
+                                <li><a id="unsublink" href="/jelly-belly-email-preference-center?ve_action=unsub#emailfrequency">Email Unsubscribe</a></li>
+                                <li><a href="/Info/customerservice/shipping_information">Shipping Information</a></li>
+                                <li><a href="/Info/customerservice/volume_discounts">Volume Discounts</a></li>
+                                <li><a href="/Info/customerservice/satisfaction_guarantee">Satisfaction Guarantee</a></li>
+                                <li><a href="/jelly-belly-email-preference-center">Email Preference Center</a></li>
+                                <li><a id="emailSignupFooter">Jelly Belly Newsletter</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="/Info/newsandevents/">News &amp; Events</a></li>
+                        <li>
+                            <ul>
+                                <li><a href="http://news.jellybelly.com/index.php">Newsroom</a></li>
+                                <li><a href="/Info/newsandevents/event_calendar">Event Calendar</a></li>
+                                <li><a href="/Info/visitjellybelly/California_Factory_Events">Fairfield CA Events</a></li>
+                                <li><a href="/Info/visitjellybelly/wisconsin_factory_event_calendar">Pleasant Prairie WI Events</a></li>
+                                <li><a href="/Info/sportssponsorships/sponsorships_event_calendar">Jelly Belly Sponsor Events</a></li>
+                                <li><a href="/Info/sports_sponsorships/">Sponsorships</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Quick Links</li>
+                        <li>
+                            <ul>
+                                <li><a class="Popup" href="http://www.sportbeans.com">SportBeans.com</a></li>
+                                <li><a class="Popup" href="http://www.youtube.com/jellybelly">YouTube.com/JellyBelly</a></li>
+                                <li><a class="Popup" href="https://www.myjellybelly.com/" target="_blank">MyJellyBelly.com</a></li>
+                                <li><a class="Popup" href="https://jellybelly.affiliatetechnology.com/">Affiliate Program</a></li>
+                                <li><a class="candyCalculatorModal" href="#">Candy Calculator</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="jb-footer-international">
+                            <h3>International</h3>
+                            <ul id="intl_list">
+                                <li><a  href="http://jellybelly.com" title="United States" style=" background-position:0 0px; text-decoration:none !important;">United States</a></li>
+                                <li><a  href="http://www.jellybelly.com.au" title="Australia" style=" background-position:0 -11px; text-decoration:none !important;">Australia</a></li>
+                                <li><a  href="http://www.jellybelly.be" title="Belgium" style=" background-position:0 -22px; text-decoration:none !important;">Belgium</a></li>
+                                <li><a  href="http://www.jellybelly.ca" title="Canada" style=" background-position:0 -33px; text-decoration:none !important;">Canada</a></li>
+                                <li><a  href="http://www.jellybelly.cl" title="Chile" style=" background-position:0 -44px; text-decoration:none !important;">Chile</a></li>
+                                <li><a  href="http://www.jelly-belly.com.cn" title="China" style=" background-position:0 -55px; text-decoration:none !important;">China</a></li>
+                                <li><a  href="http://www.jellybelly.com.co" title="Colombia" style=" background-position:0 -66px; text-decoration:none !important;">Colombia</a></li>
+                                <li><a  href="http://www.jellybelly.dk" title="Denmark" style=" background-position:0 -77px; text-decoration:none !important;">Denmark</a></li>
+                                <li><a  href="http://intl.jellybelly.com/en-CA/FRA/home.aspx" title="France" style=" background-position:0 -88px; text-decoration:none !important;">France</a></li>
+                                <li><a  href="http://www.jellybelly.de" title="Germany" style=" background-position:0 -99px; text-decoration:none !important;">Germany</a></li>
+                                <li><a  href="http://www.jellybelly.it" title="Italy" style=" background-position:0 -110px; text-decoration:none !important;">Italy</a></li>
+                                <li><a  href="http://www.jellybellyjapan.com" title="Japan" style=" background-position:0 -121px; text-decoration:none !important;">Japan</a></li>
+                                <li><a  href="http://www.jellybelly.com.mx" title="Mexico" style=" background-position:0 -132px; text-decoration:none !important;">Mexico</a></li>
+                                <li><a  href="http://www.jelly-belly.nl" title="Netherlands" style=" background-position:0 -143px; text-decoration:none !important;">Netherlands</a></li>
+                                <li><a  href="http://www.jellybelly.ph" title="Philippines" style=" background-position:0 -154px; text-decoration:none !important;">Philipines</a></li>
+                                <li><a  href="http://intl.jellybelly.com/en-CA/ESP/home.aspx" title="Spain" style=" background-position:0 -165px; text-decoration:none !important;">Spain</a></li>
+                                <li><a  href="http://www.jellybelly.se" title="Sweden" style=" background-position:0 -176px; text-decoration:none !important;">Sweden</a></li>
+                                <li><a  href="http://www.jelly-belly.ch" title="Switzerland" style=" background-position:0 -187px; text-decoration:none !important;">Switzerland</a></li>
+                                <li><a  href="http://www.jellybelly-uk.com" title="United Kingdom" style=" background-position:0 -198px; text-decoration:none !important;">United Kingdom</a></li>
+                            </ul>
+                     </div>
+                    
+        </div>
+        
+        
+        
+        
+
+    
+</footer>

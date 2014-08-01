@@ -1,0 +1,140 @@
+.mz-category {
+     font-family: 'Trebuchet MS', Verdana, sans-serif;
+    /* font-family: Tahoma, Helvetica, Arial, sans-serif; */
+    background: url('../resources/images/mainBG2.jpg') no-repeat fixed center top;
+    color: #444;
+    .mz-l-paginatedlist {
+        top: 0em;
+        width: 100%;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+    .jb-category-container{
+        clear: both;
+        width: 95%;
+        margin: 0 auto;
+        .jb-category-title{
+            color: rgb(188, 0, 0);
+            font-size: 24px;
+        }
+        .jb-childcategory-container{
+            clear: both;
+            width: 75%;
+            margin: 0 auto;
+            .jb-childcategory{
+                max-height: 62px;
+                overflow: hidden;
+                border: 1px solid #8D8989;
+                border-radius: 16px;
+                margin: 45px auto;
+                transition: max-height 2s;
+                .jb-colapsing-title{
+                    margin: 0px;
+                    cursor: pointer;
+                    clear: both;
+                    width: 100%;
+                    text-align: center;
+                    padding: 12px 0px 0px 0px;
+                    h1{
+                        margin: 0px;
+                        width: 85%;
+                        text-align: left;
+                        display: inline-block;
+                    }
+                    p{
+                        display: inline-block;
+                    }
+                }
+                .jb-childcategory-description{
+                    margin: 20px auto;
+                    padding: 0px 20px;
+                }
+                .jb-childChildrenCategories-container{
+                    padding: 0px 20px;
+                    margin: 0 auto;
+                    width: 100%;
+                    text-align: center;
+                    clear: both;
+                    display: inline-block;
+                    .jb-childChildrenCategory{
+                        width: 103px;
+                        height: 94px;
+                        float: left;
+                        margin: 15px;
+                        display: block;
+                        background-repeat: no-repeat;
+                        a{
+                            text-decoration: none;
+                            color: #00a3e0;
+                            cursor: pointer;
+                            position: relative;
+                            top: 70px;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+      -ms-transition-duration: 0.4s;
+       -o-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+
+
+
+
+
+
+

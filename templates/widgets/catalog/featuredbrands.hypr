@@ -1,0 +1,36 @@
+
+   <ul class="jb-feature-brands">
+
+    
+
+      {% for catID in model.config.featured-brand-categories %}
+      
+        {% with navigation|find:catID as cat %}
+        
+            <li class="jb-feature-brand-listing">
+                
+                
+                <div class="jb-feature-brand-item">
+                    <h3>{{cat.name}}</h3>
+                    <figure >
+                      <a href="{{cat.url}}">
+                        <img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/{{cat.name|slugify }}Logo.png" width="133" border="0">
+                      </a>
+                    </figure>
+                    <p>
+                      Made with real fruit pectin, Sunkist Candies are bursting with the juiciest natural flavors, no preservatives added. 
+                        <a class="jb-feature-brand-moreinfo" href="{{cat.url}}">Click here for more information ►</a>
+                        <br>
+                        <br>
+                        <a class="jb-feature-brand-shopnow" href="{{cat.url}}">Shop Now ►</a>
+                    </p>
+                </div>
+            </li>
+
+        {% endwith %}
+      {% endfor %}
+
+    </ul>
+
+
+

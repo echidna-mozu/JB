@@ -1,0 +1,83 @@
+<nav class="mz-sitenav">
+    <div class="jb-nav" >
+
+
+            <ul class="mz-sitenav-list" 
+                data-mz-contextify='.mz-sitenav-link[href="{{ navigation.currentNode.url }}"]'
+                data-mz-contextify-attr='class'
+                data-mz-contextify-val='is-current'>
+              {% partial_cache %}
+              
+                
+        
+                <li class="mz-sitenav-item">
+                    <div class="mz-sitenav-item-inner">
+                        <a class="mz-sitenav-link" href="/shop-our-product">Chyanged Label</a>
+                    </div>
+                </li>
+        
+                <li class="mz-sitenav-item">
+                    <div class="mz-sitenav-item-inner">
+                        <a class="mz-sitenav-link" href="/explore-our-product">EXPLORE our products</a>
+                    </div>
+                </li>
+        
+        
+                <li class="mz-sitenav-item">
+                    <div class="mz-sitenav-item-inner">
+                        <a class="mz-sitenav-link" href="/">Visit us</a>
+                    </div>
+                </li>
+        
+        
+                <li class="mz-sitenav-item">
+                    <div class="mz-sitenav-item-inner">
+                        <a class="mz-sitenav-link" href="/">Entertainment</a>
+                    </div>
+                </li>
+        
+        
+                <li class="mz-sitenav-item">
+                    <div class="mz-sitenav-item-inner">
+                        <a class="mz-sitenav-link" href="/">Athletes We Sponsor</a>
+                    </div>
+                </li>
+        
+        
+                <li class="mz-sitenav-item">
+                    <div class="mz-sitenav-item-inner">
+                        <a class="mz-sitenav-link" href="/">Gift card</a>
+                    </div>
+                </li>
+        
+           
+                {% endpartial_cache %}
+                {% require_script "modules/contextify" %}
+            </ul>
+            <div class="jb-store-locator">
+                <a class="jb-store-locator-link" href="/">
+                    Find a store
+                    <span class="jb-usmap">
+                    </span>
+                </a>
+            </div>
+    </div>
+    <div class="nav-menu-details">
+            <div class="nav-menu-details-container">
+                <h1> Navigation details : has to be implemented </h1>
+                <a href="/jelly-belly-flavor-guides/c/54">jelly-belly-flavor-guides</a>
+            </div>
+            <div id="mz-sitenav-link-close" class="closeSubNav" >close ▲</div>
+    </div>
+</nav>
+    
+
+
+
+
+
+
+
+
+
+

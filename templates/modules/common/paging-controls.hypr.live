@@ -1,0 +1,50 @@
+
+
+
+    <div class="jb-result-details">
+        
+        <h3>
+            {% if model.totalCount %}
+                {% if model.totalCount != 1 %}
+                <!--"pageStatePlural"      : "{0} - {1} of {2} Search Results for {3} products > {4}"-->
+                <!--1 - 11 of 11 Search Results for Blueberry products > blue-->
+                    {{ labels.pageStatePlural|string_format(model.firstIndex,model.lastIndex,model.totalCount) }}
+                {% else %}
+                    {{ labels.pageStateSingular }}
+                {% endif %}
+            {% endif %}
+        </h3>
+        <p>
+            Looking for Company or Product Information? <a href="/">Click here for 16 articles.</a>
+        </p>
+    </div>
+    
+    
+    <div class="mz-pagingcontrols-filters">
+        <p>{{ labels.show }}</p>
+        <select data-mz-value="PageSize" class="mz-pagingcontrols-pagesize-dropdown">
+            {% block page-sizes %}
+            {% for pageSize in themeSettings.pageSizeOptions %}
+            <option {% if model.pageSize == pageSize %}selected="selected"{% endif %} value="{{ pageSize }}">{{ pageSize }}</option>
+            {% endfor %}
+            {% endblock page-sizes %}
+        </select>
+    
+        <p>{{ labels.view }}</p>
+        <select data-mz-value="View" class="mz-pagingcontrols-pagesize-dropdown">
+            <option value="Grid">Grid</option>
+            <option value="List">List</option>
+        </select>
+    
+        <p>{{ labels.sortby }}</p>
+        <select data-mz-value="SortBy" class="mz-pagingcontrols-pagesize-dropdown">
+        
+            {% for pageSort in themeSettings.sortByOptions %}
+            <option value="{{pageSort.value}}">{{pageSort.text}}</option>
+            {% endfor %}
+        </select>
+    </div>
+    
+
+
+

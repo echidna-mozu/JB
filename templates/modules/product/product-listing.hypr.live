@@ -1,0 +1,71 @@
+<div class="mz-productlisting" data-mz-product="{{ model.productCode }}">
+    
+    <div class="mz-productlisting-image">
+        {% if model.mainImage.imageUrl %}
+        <a href="{{model.url}}">
+            <img src="{{model.mainImage.imageUrl}}?max={% block thumbnail-size %}{{ themeSettings.listProductThumbSize }}{% endblock thumbnail-size %}" />
+        </a>
+        {% else %}
+            <span class="mz-productlisting-imageplaceholder"><span class="mz-productlisting-imageplaceholdertext">{{ labels.productImagePlaceholder }}</span></span>
+        {% endif %}
+    </div>
+    
+    <div class="jb-product-min-details">
+        <div class="mz-productlisting-info">
+            <a class="mz-productlisting-title" href="{{model.url}}">{{model.content.productName}}</a>
+            
+        </div>
+        
+        <p class="jb-product-description">Jelly Belly Berry Blue jelly beans in a 16 oz re-sealable bag. Portable and convenient size for candy.</p>
+        
+        <p class="jb-product-prize" data-mz-product-price="{{model.price.price}}">Price: ${{model.price.price}}</p> 
+        
+        
+        <div class="jb-sli_reviews">
+			<div class="jb-review5stars" style="background-position: 0 -125px;">&nbsp;</div>
+			<p>80 Reviews</p>
+		</div>
+        
+        <div class="jb-buy-product">
+            <div class="qty">Quantity
+                <select id="quantity" name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                </select>
+            </div>
+    	    <a href="{{ model.productCode }}" class="jb-add-to-cart" type="submit" >ADD TO CART</a>
+        </div>
+    </div>
+    
+    
+</div>
+
+
+
+
+
+
+

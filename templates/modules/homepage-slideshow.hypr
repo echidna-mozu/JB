@@ -1,0 +1,27 @@
+
+<div class="sb-desktop-only">
+    <div id="home_gallery">
+		<div class="slides">
+			<div class="viewport_gallery_slide">
+				<img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/{{themeSettings.home_slide_1}}"/>
+			</div>
+			<div class="viewport_gallery_slide">
+				<img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/{{themeSettings.home_slide_2}}"/>
+			</div>
+			<div class="viewport_gallery_slide">
+				<img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/{{themeSettings.home_slide_3}}"/>
+			</div>
+			<div class="viewport_gallery_slide">
+				<img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/{{themeSettings.home_slide_4}}"/>
+			</div>
+			<div class="viewport_gallery_slide">
+				<img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/{{themeSettings.home_slide_5}}"/>
+			</div>
+	    </div>
+    </div>
+</div>
+
+
+
+
+

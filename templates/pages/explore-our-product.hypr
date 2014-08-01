@@ -1,0 +1,28 @@
+{% extends "page" %}
+
+{% block title-tag-content %} Explore our products {% endblock title-tag-content %}
+
+{% block body-tag-classes %}mz-exploreproduct{% endblock body-tag-classes %}
+
+{% block body-content %}
+
+    {% block featured-brands-category %}
+                    {% dropzone "exploreourproduct-features" scope="page" %}
+	{% endblock featured-brands-category %}
+    
+{% endblock body-content %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+
+<div class="sb-desktop-only">	  
+    <div id="shop_our_product_gallery">
+    
+        <a class="jb-shop-now" href="/search/go#w=Belly Flops&amp;asug=">Shop Now</a>
+        <div class="jb-free-shipping">
+        
+             <h3>
+                <em>
+                   Free shipping<br>
+                   on orders over $55
+                </em>
+            </h3>
+            <p>
+                We also ship international
+            </p>
+            <a class="jb-free-shipping-button" href="/Info/customerservice/shipping_information#ShipInternational">View Details</a>
+        </div>
+        <div class="jb-monthly-theme">
+        
+            <h3>
+                <em>
+                   July is National
+                   Watermelon Month
+                </em>
+            </h3>
+            <p>
+                Select items 15% Off
+            </p>
+            <a class="jb-monthly-theme-button" href="/search/go#w=watermelon">Shop Now</a>
+        </div>
+        
+        
+        
+        
+        
+         
+		<div class="slides">
+			<div class="viewport_gallery_slide">
+				<img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/shop_main_belly_flops.jpg">
+				   
+				</img>
+			</div>
+			<div class="viewport_gallery_slide">
+				<img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/shop_main_frozen.jpg">
+				   
+				</img>
+			</div>
+			<div class="viewport_gallery_slide">
+				<img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/shop_main_party_bag_sale.jpg">
+				   
+				</img>
+			</div>
+			<div class="viewport_gallery_slide">
+				<img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/shop_main_sport_beans.jpg">
+				   
+				</img>
+			</div>
+	    </div>
+    </div>
+</div>
+
+
+
+
+
+

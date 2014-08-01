@@ -1,0 +1,35 @@
+{% extends "page" %}
+
+{% block title-tag-content %} Home {% endblock title-tag-content %}
+
+{% block body-tag-classes %}mz-homepage{% endblock body-tag-classes %}
+
+{% block body-content %}
+
+    {% require_script "pages/homepage" %}  
+    <div class="jb-slide-show">
+        {% include "modules/homepage-slideshow" %}   
+    </div>
+  
+    <div class="jb-about-jelly-belly">
+    
+        <p>
+            <img src="../../resources/images/JB_logo2.png"/>
+              Did you know that Jelly Belly Candy Company makes more than just world famous jelly beans?
+              We are proud to offer our enormous line-up of gourmet treats, from jelly beans to chocolate to gummi candy, here on Jellybelly.com.
+              <a href="/Info/ourcandy/">Explore our candy</a> and see what makes Jelly Belly better than the average candy company!
+        </p>
+    </div>
+    
+    
+    <div id="homepage-brands-listing">
+    </div>
+    
+{% endblock body-content %}
+
+
+
+
+
+
+

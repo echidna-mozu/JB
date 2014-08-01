@@ -1,0 +1,33 @@
+{% preload_json Model "facetedproducts" %}
+
+
+
+<div class="mz-l-paginatedlist">
+
+    <div data-mz-pagingcontrols class="mz-pagingcontrols">
+        {% include "modules/common/paging-controls" %}
+    </div>
+    
+    <div data-mz-pagenumbers class="mz-pagenumbers">
+        {% include "modules/common/page-numbers" %}
+    </div>
+    
+    <div data-mz-facets class="mz-l-sidebar">
+        {% include "modules/product/faceting-form" %}
+    </div>
+
+    <div data-mz-productlist>
+        {% require_script "modules/add-to-cart-plp" %}  
+        {% include "modules/product/product-list-tiled" %}
+    </div>
+
+    <div data-mz-pagenumbers class="mz-pagenumbers">
+        {% include "modules/common/page-numbers" %}
+    </div>
+
+</div>
+
+
+
+
+

@@ -1,0 +1,69 @@
+
+<div class="jb-socialize">
+
+    <div class="jb-footer-evrgreen">
+        <a href="/Info/Shop/gift_cards">
+            <img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/evergreen_giftCard.png"/>
+        </a>
+        <a href="/info/funstuff/Flavor_Guides">
+            <img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/evergreen_flavorGuides.jpg"/>
+        </a>
+        <a href="//jellybelly.mshopper.net/gfd.jsp" rel="sms">
+            <img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/evergreen_mshopper.png"/>
+        </a>
+        <a href="https://www.myjellybelly.com/" target="_blank">
+            <img src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/myjb_web_graphic.png"/>
+        </a>
+    </div>
+
+
+   
+        
+        <div class="jb-social-links">
+            
+            <div class="jb-tours-shipping">
+                <ul>
+                    <li> <a href=""> Free tours </a> </li>
+                    
+                    <li> <a href="" class="jb-tours"> </a> </li>
+                    
+                    <li> <a href=""> Free Shipping</a> </li>
+                    
+                    <li> <a href="" class="jb-shipping"> </a> </li>
+                </ul>
+            </div>
+            
+            
+             <div class="jb-center-logo">
+                <img class="jb-center-logo-img" src="{{ siteContext.cdnPrefix }}/cms/{{ siteContext.cdnPrefix|slice:"23:" }}/files/jbLogo_center.png"/>
+            </div>
+            
+            <div class="jb-follow-us">
+                <ul >
+                    <li>follow us on </li>
+                    <li>
+                        <a href="http://www.pinterest.com/jellybelly" class="jb-pin"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.facebook.com/jellybelly" class="jb-fb"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.youtube.com/jellybelly" class="jb-utube"></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+jellybelly/posts" class="jb-plus"></a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com/JellyBellyCandyCo" class="jb-insta"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.linkedin.com/company/jelly-belly-candy-company." class="jb-link"></a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+</div>
+
+
+

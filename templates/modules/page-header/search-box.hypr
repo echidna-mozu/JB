@@ -1,0 +1,8 @@
+<form id="searchbox" class="mz-searchbox" action="/search">
+	
+	<input placeholder="{{ labels.search }}" type="search" class="mz-searchbox-field"  value="{{pageContext.search.query}}" name="query" />
+	<button class="mz-searchbox-button" type="submit">{{ labels.search }}</button>
+	
+    {% require_script "modules/contextify" %}
+</form>
+

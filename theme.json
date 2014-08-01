@@ -1,0 +1,125 @@
+{
+  "about": {
+    "name": "Jelly Belly",
+    "author":"Echidna, Inc for Jelly Belly",
+    "extends": "core4",
+    "isDesktop": true,
+    "isMobile": true
+  },
+	
+    "settings": {
+
+        "useDebugScripts":            false,
+        "useAnimatedProductLists":    true,
+        "allowWishlist":              true,
+        "showCheckoutCommentsField":  false,
+        
+        
+        "home_slide_1" : "",
+        "home_slide_2" : "",
+        "home_slide_3" : "",
+        "home_slide_4" : "",
+        "home_slide_5" : "",
+        
+        "category_slide_1":"",
+        "category_slide_2":"",
+        "category_slide_3":"",
+        "category_slide_4":"",
+        
+        
+        "sortByOptions": [ {
+            "text": "Popularity",
+            "value": "popularity"
+        },
+        {
+            "text": "Low Price",
+            "value": "low_price"
+        }, 
+		{
+            "text": "Highest Price",
+            "value": "highest_price"
+        },
+        {
+            "text": "Best Rating",
+            "value": "best_rating"
+        },
+		{
+            "text": "Number of Reviews",
+            "value": "number_of_reviews"
+        }
+		]
+    },
+   
+    "pageTypes": [
+
+        {
+            "id": "shop-our-product",
+            "title": "Shop Our Product",
+            "entityType": "webpage",
+            "documentType": "web_page",
+            "userCreatable": true,
+            "template": "pages/shop-our-product"
+        },
+        
+        {
+            "id": "explore-our-product",
+            "title": "Explore Our Product",
+            "entityType": "webpage",
+            "documentType": "web_page",
+            "userCreatable": true,
+            "template": "pages/explore-our-product"
+        },
+        {
+            "id": "category",
+            "title": "Category",
+            "entityType": "category",
+            "userCreatable": false,
+            "template": "category"
+        }, {
+            "id": "parent-category",
+            "title": "ParentCategory",
+            "entityType": "category",
+            "userCreatable": false,
+            "template": "parent-category"
+        }
+    ],
+   
+    "widgets": [
+	
+	
+        {
+          "id":               "featuredbrands"
+        , "icon":             "/resources/admin/widgets/22_category_navigation.png"
+        , "displayName":      "Featured Brands"
+        , "validPageTypes":   ["*"]
+        , "displayTemplate":  "catalog/featuredbrands"
+
+        , "editViewFields": [
+
+            {
+                "fieldLabel":   "Featured Brand Categories"
+              , "name":         "featured-brand-categories"
+              , "xtype":        "boxselect"
+              , "anchor":       "100%"
+              , "displayField": "name"
+              , "valueField":   "id"
+              , "queryMode":    "local"
+
+              , "store":{
+                  "type": "Taco.store.Categories" 
+                }
+            }
+
+          ]
+        }
+    
+	]
+}
+
+
+
+
+
+
+
+

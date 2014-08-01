@@ -1,0 +1,10 @@
+
+
+
+{% extends "modules/product/product-list" %}
+{% block module-classes %}mz-productlist-tiled{% endblock module-classes %}
+
+
+
+
+

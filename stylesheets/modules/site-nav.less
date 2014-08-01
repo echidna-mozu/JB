@@ -1,0 +1,115 @@
+.mz-sitenav {
+    @navHeight: auto;
+    width: 100%;
+    background: #fff;
+    overflow: visible;  
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    .jb-nav{
+      border: 1px solid #808080;
+      border-top:none;
+      border-radius: 0px 0px 12px 12px;
+    
+    }
+    .jb-store-locator{
+        float:right;
+        top: -26px;
+        position: relative;
+        padding-right: 12px;
+        display: inline-block;
+        .jb-store-locator-link{
+            text-decoration:none;
+            color: #666;
+            .jb-usmap{
+                display: inline-block;
+                width: 30px;
+                height: 20px;
+                background: url('../resources/images/usMap.png') top;
+            }
+        &:active{
+            color: #00A3E0;
+        }
+        }
+    }
+   
+    .mz-sitenav-list {
+        width: 100%;
+        display: block;
+        border-radius: 0 0 0 12px;
+        border: 1px solid #ddd;
+        border-top: none;
+        height: 22px;
+        
+        .mz-sitenav-item {
+            display: block;
+            border-right: 1px solid gray;
+            float: left;
+    
+            .mz-sitenav-item-inner {
+                position: relative;
+                
+                .mz-sitenav-link {
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: #666;
+                        text-decoration: none;
+                        display: block;
+                        padding: 2px 15px;
+                        &:active {
+                            color: #00A3E0 ;
+                        }
+                        &:hover {
+                            color: #00A3E0 ;
+                        }
+                        
+                }
+
+            }
+            
+            &:hover{
+                 box-shadow: inset -0px -30px 30px -30px rgba(255, 255, 0, .5);
+            }
+           
+        }
+    } 
+    
+
+
+    .nav-menu-details{
+        height: 0px;
+        margin-bottom: 0px;
+        transition: height 2s;
+        overflow: hidden;
+        .nav-menu-details-container{
+            height: 263px;
+            border: 1px solid #ddd;
+        }
+        .closeSubNav{
+            position: relative;
+            display: none;
+            margin: 0 auto;
+            padding: 3px 10px;
+            width: 100px;
+            font-weight: bold;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-top: 0;
+            border-radius: 0 0 12px 12px;
+            background-color: #fff;
+            cursor: pointer;
+            box-shadow: inset -0px 3px 5px -5px rgba(0,0,0,.7), 0 5px 5px rgba(0,0,0,.1);
+        }
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
